@@ -3,6 +3,6 @@ secret:
   word: JVM
 ---
 spring:
-  profiles: products-api
+  profiles: dev
 server:
   port: 8000
