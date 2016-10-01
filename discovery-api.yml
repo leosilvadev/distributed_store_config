@@ -1,12 +1,13 @@
 ---
-secret:
-  word: JVM
----
 spring:
   profiles: dev
 server:
-  port: 8000
+  port: 7000
 eureka:
+  instance:
+    hostname: localhost
   client:
+    registerWithEureka: false
+    fetchRegistry: false
     serviceUrl:
       defaultZone: http://localhost:7000/eureka
