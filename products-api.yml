@@ -4,6 +4,9 @@ secret:
 ---
 spring:
   profiles: dev
+  data:
+    mongodb:
+      uri: mongodb://localhost/products
 server:
   port: 8000
 eureka:
