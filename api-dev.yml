@@ -1,0 +1,8 @@
+---
+secret:
+  word: JVM
+---
+spring:
+  profiles: products-api
+server:
+  port: 8000
