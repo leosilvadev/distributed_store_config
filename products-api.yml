@@ -4,6 +4,9 @@ secret:
 ---
 spring:
   profiles: dev
+  jackson:
+    serialization:
+      write_dates_as_timestamps: false
   data:
     mongodb:
       uri: mongodb://localhost/products
