@@ -6,9 +6,9 @@ spring:
       write_dates_as_timestamps: false
   data:
     mongodb:
-      uri: mongodb://localhost/establishments
+      uri: mongodb://localhost/users
 server:
-  port: 8001
+  port: 8002
 eureka:
   client:
     serviceUrl:
