@@ -1,0 +1,15 @@
+---
+spring:
+  profiles: dev
+  jackson:
+    serialization:
+      write_dates_as_timestamps: false
+  data:
+    mongodb:
+      uri: mongodb://localhost/plans
+server:
+  port: 8003
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7000/eureka
