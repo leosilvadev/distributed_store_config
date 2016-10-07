@@ -12,6 +12,9 @@ spring:
       uri: mongodb://localhost/products
 server:
   port: 8000
+apis:
+  establishments:
+    url: http://localhost:8001
 eureka:
   client:
     serviceUrl:
