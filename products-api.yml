@@ -15,7 +15,3 @@ server:
 apis:
   establishments:
     url: http://localhost:8001
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:7000/eureka
