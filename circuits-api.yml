@@ -1,0 +1,15 @@
+---
+secret:
+  word: JVM
+---
+spring:
+  profiles: dev
+  jackson:
+    serialization:
+      write_dates_as_timestamps: false
+server:
+  port: 8004
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7000/eureka
