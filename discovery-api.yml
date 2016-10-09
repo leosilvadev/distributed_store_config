@@ -12,4 +12,4 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:7000/eureka
 props:
-  test: Teste
+  test: Test
