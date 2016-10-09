@@ -11,5 +11,3 @@ eureka:
     fetchRegistry: false
     serviceUrl:
       defaultZone: http://localhost:7000/eureka
-props:
-  test: Test

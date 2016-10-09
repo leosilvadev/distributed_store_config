@@ -13,3 +13,5 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:7000/eureka
+test:
+  stream: mytest
