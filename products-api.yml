@@ -1,7 +1,4 @@
 ---
-secret:
-  word: JVM
----
 spring:
   profiles: dev
   jackson:
